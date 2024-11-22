@@ -6,12 +6,16 @@ class Student:
         self.lastname = นามสกุล
         self.nickname = ชื่อเล่น
         self.testscore = random.randint(1,10)
+        self.score1 = random.randint(1,10)
     def score(self):
         if self.testscore >= 5:
             print(f"{self.name} {self.lastname} {self.nickname} {self.testscore} สอบผ่าน")
         else:
             print(f"{self.name} {self.lastname} {self.nickname} {self.testscore} สอบไม่ผ่าน")
-    
+            if self.score1 >= 5:
+                print(f"{self.name} {self.lastname} {self.nickname} {self.score1} สอบเเก้ผ่าน")
+            else:
+                print(f"{self.name} {self.lastname} {self.nickname} {self.score1} สอบเเก้ไม่ผ่าน")
 student1=Student (ชื่อ="นายปิติพงค์",นามสกุล="ภูมิพงค์",ชื่อเล่น="ปอน")
 student2=Student (ชื่อ="นายชิติพัทธ์",นามสกุล="โสขะรัตน์",ชื่อเล่น="ไนท์") 
 student3=Student (ชื่อ="นายกมลศักดิ์",นามสกุล="จิรังพันธ์",ชื่อเล่น="อ็อฟ") 
