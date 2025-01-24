@@ -73,7 +73,7 @@ class Managerdb:
             return True
         else:
             return False
-
+ใ
 table = Managerdb("localhost", "root", "1234", "shop")
 
 print(table)
