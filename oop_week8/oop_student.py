@@ -32,15 +32,12 @@ class Student:
         return f"ชื่อ : {self.name} หมายเลขประจำตัว : {self.id} อายุ : {self.age} เกรดเฉลี่ย : {self.calculateGrade()}"
         
         
-<<<<<<< HEAD
 student1 = Student("ปิติพงศ์","67319010031",19, {})
 
 student1.updateScore(80,45,60,70,80)
-=======
 student1 = Student("เตชินท์","67319010028",19, {})
 
 student1.updateScore(100,70,80,50,100)
->>>>>>> 18ae84b6b4b0f091febf8fb2cb5a744738ec8d55
 print(student1.grades)
 
 student1.scoreToGrade()
